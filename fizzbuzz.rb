@@ -4,8 +4,8 @@ def fizzbuzz(num)
   if num / 5
     return "Fizz"
   elsif num / 3
-    puts "Buzz"
-  elsif num / 3 || num / 5
-    puts "FizzBuzz"
+    return "Buzz"
+  elsif num / 3 && num / 5
+    return "FizzBuzz"
   end
 end
