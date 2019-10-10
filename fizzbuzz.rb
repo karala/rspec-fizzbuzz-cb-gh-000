@@ -8,5 +8,4 @@ def fizzbuzz(num)
   elsif num / 3 || num / 5
     puts "FizzBuzz"
   end
-
 end
